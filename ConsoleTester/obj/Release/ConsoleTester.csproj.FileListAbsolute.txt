@@ -1,0 +1,17 @@
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\ConsoleTester.exe
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\ConsoleTester.pdb
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\Exporter.dll
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\Models.dll
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\Newtonsoft.Json.dll
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\EPPlus.dll
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\Microsoft.IO.RecyclableMemoryStream.dll
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\Exporter.pdb
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\Models.pdb
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\Newtonsoft.Json.xml
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\EPPlus.xml
+D:\C#\GenshinGachaExporter\ConsoleTester\bin\Release\Microsoft.IO.RecyclableMemoryStream.xml
+D:\C#\GenshinGachaExporter\ConsoleTester\obj\Release\ConsoleTester.csprojAssemblyReference.cache
+D:\C#\GenshinGachaExporter\ConsoleTester\obj\Release\ConsoleTester.csproj.CoreCompileInputs.cache
+D:\C#\GenshinGachaExporter\ConsoleTester\obj\Release\ConsoleTester.csproj.CopyComplete
+D:\C#\GenshinGachaExporter\ConsoleTester\obj\Release\ConsoleTester.exe
+D:\C#\GenshinGachaExporter\ConsoleTester\obj\Release\ConsoleTester.pdb

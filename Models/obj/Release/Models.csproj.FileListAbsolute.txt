@@ -1,0 +1,6 @@
+D:\C#\GenshinGachaExporter\Models\bin\Release\Models.dll
+D:\C#\GenshinGachaExporter\Models\bin\Release\Models.pdb
+D:\C#\GenshinGachaExporter\Models\obj\Release\Models.csprojAssemblyReference.cache
+D:\C#\GenshinGachaExporter\Models\obj\Release\Models.csproj.CoreCompileInputs.cache
+D:\C#\GenshinGachaExporter\Models\obj\Release\Models.dll
+D:\C#\GenshinGachaExporter\Models\obj\Release\Models.pdb

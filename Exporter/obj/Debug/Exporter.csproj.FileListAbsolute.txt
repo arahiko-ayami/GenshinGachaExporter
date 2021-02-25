@@ -1,0 +1,16 @@
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\Exporter.dll
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\Exporter.pdb
+D:\C#\GenshinGachaExporter\Exporter\obj\Debug\Exporter.csprojAssemblyReference.cache
+D:\C#\GenshinGachaExporter\Exporter\obj\Debug\Exporter.csproj.CoreCompileInputs.cache
+D:\C#\GenshinGachaExporter\Exporter\obj\Debug\Exporter.dll
+D:\C#\GenshinGachaExporter\Exporter\obj\Debug\Exporter.pdb
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\Models.dll
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\Newtonsoft.Json.dll
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\Models.pdb
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\Newtonsoft.Json.xml
+D:\C#\GenshinGachaExporter\Exporter\obj\Debug\Exporter.csproj.CopyComplete
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\EPPlus.dll
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\System.ComponentModel.Annotations.dll
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\EPPlus.xml
+D:\C#\GenshinGachaExporter\Exporter\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
