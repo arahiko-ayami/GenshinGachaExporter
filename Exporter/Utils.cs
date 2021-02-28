@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Models.GachaLogModels;
 using Newtonsoft.Json.Linq;
 using OfficeOpenXml;
+using OfficeOpenXml.Style;
 using OfficeOpenXml.Table;
 
 namespace Exporter
@@ -30,7 +31,7 @@ namespace Exporter
             return gameLocation;
         }
 
-        public static Task<string> GetJson(string url)
+        public static string GetJson(string url)
         {
             using (WebClient webClient = new WebClient())
             {
@@ -45,7 +46,7 @@ namespace Exporter
                     // ignored
                 }
 
-                return Task.FromResult(jsonData);
+                return jsonData;
             }
         }
 
@@ -101,6 +102,8 @@ namespace Exporter
                 }
                 
                 workSheet.Cells[workSheet.Dimension.Address].AutoFitColumns();
+                workSheet.Cells[workSheet.Dimension.Address].Style.HorizontalAlignment =
+                    ExcelHorizontalAlignment.Center;
                 
                 if (!Directory.Exists(path))
                 {
