@@ -58,7 +58,7 @@ namespace Exporter
 
             gachaTypesUrl = "https://hk4e-api.mihoyo.com/event/gacha_info/api/getConfigList" + queryString;
             gachaLogBaseUrl = "https://hk4e-api.mihoyo.com/event/gacha_info/api/getGachaLog" + queryString;
-            var gachaTypeJson = JObject.Parse(GetJson(gachaTypesUrl));
+            var gachaTypeJson = JObject.Parse(await GetJson(gachaTypesUrl));
             var gachaTypeList = gachaTypeJson["data"]["gacha_type_list"];
 
             foreach (var type in gachaTypeList)
@@ -89,7 +89,7 @@ namespace Exporter
             JObject jObject = null;
             try
             {
-                string gachaLogs = GetJson(gachaLogBaseUrl + "&gacha_type=" + key + "&page=" + page + "&size=20");
+                string gachaLogs = await GetJson(gachaLogBaseUrl + "&gacha_type=" + key + "&page=" + page + "&size=20");
                 jObject = JObject.Parse(gachaLogs);
             }
             catch (Exception e)

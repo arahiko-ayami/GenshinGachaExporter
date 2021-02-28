@@ -31,7 +31,7 @@ namespace Exporter
             return gameLocation;
         }
 
-        public static string GetJson(string url)
+        public static Task<string> GetJson(string url)
         {
             using (WebClient webClient = new WebClient())
             {
@@ -46,7 +46,7 @@ namespace Exporter
                     // ignored
                 }
 
-                return jsonData;
+                return Task.FromResult(jsonData);
             }
         }
 
