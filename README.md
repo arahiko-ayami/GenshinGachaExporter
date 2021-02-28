@@ -1,6 +1,7 @@
 # Genshin Gacha Exporter
 
 ##Cách sử dụng
+
 Cách sử dụng rất đơn giản:
 1. Bạn phải sử dụng PC
 2. Mở game lên, mở trang lịch sử roll gacha
