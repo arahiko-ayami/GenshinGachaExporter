@@ -1,4 +1,6 @@
 # Genshin Gacha Exporter
+
+##Cách sử dụng
 Cách sử dụng rất đơn giản:
 1. Bạn phải sử dụng PC
 2. Mở game lên, mở trang lịch sử roll gacha
@@ -7,7 +9,7 @@ Cách sử dụng rất đơn giản:
 5. Sau khi chạy xong thì vào thư mục "excel_files" trong đó có các file excel chứa lịch sử roll của bạn
 6. Lên cho tôi phản hồi nó có chạy tốt hay không?
 
-# FAQs
+## FAQs
 
 Q: App này có phải open-source không?
 
