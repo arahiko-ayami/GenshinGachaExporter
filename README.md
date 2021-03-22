@@ -1,5 +1,9 @@
 # Genshin Gacha Exporter
 
+## Version 1.1 có gì mới?
+
+Sửa lỗi do param end_id mới được update trong API của miHoYo.
+
 ## Cách sử dụng
 
 Cách sử dụng rất đơn giản:
