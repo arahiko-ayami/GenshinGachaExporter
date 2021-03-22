@@ -3,3 +3,4 @@ D:\C#\GenshinGachaExporter\Models\bin\Debug\Models.pdb
 D:\C#\GenshinGachaExporter\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 D:\C#\GenshinGachaExporter\Models\obj\Debug\Models.dll
 D:\C#\GenshinGachaExporter\Models\obj\Debug\Models.pdb
+D:\C#\GenshinGachaExporter\Models\obj\Debug\Models.csprojAssemblyReference.cache

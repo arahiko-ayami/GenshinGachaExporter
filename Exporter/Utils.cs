@@ -63,7 +63,7 @@ namespace Exporter
 
         public static void WriteExcelFile(List<List> list, string name)
         {
-            var date = (DateTime.Now).ToString("dd/MM/yyyy").Replace("/", "");
+            var date = DateTime.Now.ToString("dd/MM/yyyy").Replace("/", "");
             var time = DateTime.Now.ToString("hh:mm:ss").Replace(":", "");
             var fileName = "GenshinGachaLog_" + name + "_" + date + time;
             string path = AppDomain.CurrentDomain.BaseDirectory + @"excel_files";

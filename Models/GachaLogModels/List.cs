@@ -11,6 +11,8 @@
         public string lang { get; set; } 
         public string item_type { get; set; } 
         public string rank_type { get; set; }
+        
+        public string id { get; set; }
 
         public override string ToString()
         {

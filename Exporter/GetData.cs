@@ -47,8 +47,8 @@ namespace Exporter
             string str = ReadLog();
             if (str == null)
             {
-                Console.WriteLine("Can't connect to miHoYo API, please open gacha history page in the game again!");
-                Console.WriteLine("Press any key to exit...");
+                Console.WriteLine(@"Can't connect to miHoYo API, please open gacha history page in the game again!");;
+                Console.WriteLine(@"Press any key to exit...");
                 Console.ReadKey();
                 return;
             }
@@ -79,17 +79,17 @@ namespace Exporter
                 WriteExcelFile(objectLog.data.list, name);
 
                 Console.Clear();
-                Console.WriteLine("Everything is done!");
+                Console.WriteLine(@"Everything is done!");
             }
             Process.Start(AppDomain.CurrentDomain.BaseDirectory);
         }
 
-        private static async Task<JObject> GetGachaLog(string key, int page)
+        private static async Task<JObject> GetGachaLog(string key, int page, string end_id)
         {
             JObject jObject = null;
             try
             {
-                string gachaLogs = await GetJson(gachaLogBaseUrl + "&gacha_type=" + key + "&page=" + page + "&size=20");
+                string gachaLogs = await GetJson(gachaLogBaseUrl + "&gacha_type=" + key + "&page=" + page + "&size=20" + "&end_id=" + end_id);
                 jObject = JObject.Parse(gachaLogs);
             }
             catch (Exception e)
@@ -102,13 +102,16 @@ namespace Exporter
         private static async Task<List<JObject>> GetGachaLogs(string key, string name)
         {
             int page = 1;
+            string end_id = "0";
             JObject log = null;
             List<JObject> gachaLogs = new List<JObject>();
             do
             {
                 Console.Clear();
-                Console.WriteLine("Fetching data from " + name + " page " + page + "...");
-                log = await GetGachaLog(key, page);
+                Console.WriteLine(@"Fetching data from " + name + @" page " + page + @"...");
+                log = await GetGachaLog(key, page, end_id);
+                if (log["data"]["list"].Any())
+                    end_id = (string) log["data"]["list"].Last["id"];
                 gachaLogs.Add(log);
                 if (page % 10 == 0) Thread.Sleep(1000);
                 page++;
