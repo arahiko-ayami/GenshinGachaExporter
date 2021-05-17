@@ -1,8 +1,8 @@
 # Genshin Gacha Exporter
 
-## Version 1.1 có gì mới?
+## Version 1.2 có gì mới?
 
-Sửa lỗi do param end_id mới được update trong API của miHoYo.
+Sửa lỗi gây ra do NULL khi fecth data từ API
 
 ## Cách sử dụng
 
