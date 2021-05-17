@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csp
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{BA513766-995E-4665-9C11-9C6BE64B79B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenshinGachaExporter", "GenshinGachaExporter\GenshinGachaExporter.csproj", "{7DAC52CC-C6A3-4BED-B9AA-226BE32F0881}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,10 +31,6 @@ Global
 		{2C034223-79D5-42B0-9180-0A8AFFA3BB29}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA513766-995E-4665-9C11-9C6BE64B79B4}.Debug|Any CPU.ActiveCfg = Debug
 		{BA513766-995E-4665-9C11-9C6BE64B79B4}.Release|Any CPU.ActiveCfg = Release
-		{7DAC52CC-C6A3-4BED-B9AA-226BE32F0881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7DAC52CC-C6A3-4BED-B9AA-226BE32F0881}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7DAC52CC-C6A3-4BED-B9AA-226BE32F0881}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7DAC52CC-C6A3-4BED-B9AA-226BE32F0881}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

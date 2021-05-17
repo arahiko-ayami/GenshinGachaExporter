@@ -76,7 +76,8 @@ namespace Exporter
                 string stringlog = JsonConvert.SerializeObject(log);
                 var objectLog = JsonConvert.DeserializeObject<GachaLogsMessage>(stringlog);
                 WriteJsonFile(stringlog, name);
-                WriteExcelFile(objectLog.data.list, name);
+                if(objectLog.data != null)
+                    WriteExcelFile(objectLog.data.list, name);
 
                 Console.Clear();
                 Console.WriteLine(@"Everything is done!");
